@@ -71,7 +71,7 @@ export default function Home(props: {
 
             <ProfileInfo>
               <NameAndStatus>
-                <Name>Dustin Rouillard</Name>
+                <Name>Michael Schroeder</Name>
                 <NoSSR>
                   <ReactTooltip id={"presence"}>
                     {status == "dnd"
@@ -89,9 +89,9 @@ export default function Home(props: {
               <Description>
                 <Text>
                   Hi there <Span onClick={() => spinHead()}>👋🏼</Span> I’m
-                  Dustin, I’m <Age /> years old.
+                  Michael, I’m <Age /> years old.
                 </Text>
-                <Text>Backend developer and network/systems administrator</Text>
+                <Text>New Grad Software Developer looking for every way to improve and hone my skills</Text>
                 <SocialWrapped />
                 <Spotify />
               </Description>

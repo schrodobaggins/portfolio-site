@@ -18,7 +18,7 @@ export function SocialLinks(props: any): ReactElement {
           icon={Twitter}
           highlight="#1DA1F2"
           tooltip="Twitter"
-          link="https://dstn.to/twitter"
+          link="https://twitter.com/schrodobaggin"
         />
       </IconWrapped>
       <IconWrapped>
@@ -27,25 +27,25 @@ export function SocialLinks(props: any): ReactElement {
           icon={Github}
           highlight="#9CDAF1"
           tooltip="Github"
-          link="https://dstn.to/github"
+          link="https://github.com/schrodobaggins"
         />
       </IconWrapped>
-      <IconWrapped>
+      {/* <IconWrapped>
         <Icon
           size={25}
           icon={Dollar}
           highlight="#9CDAF1"
           tooltip="Sponsor"
-          link="https://dstn.to/sponsor"
+          link="https://schrodobaggins.co"
         />
-      </IconWrapped>
+      </IconWrapped> */}
       <IconWrapped>
         <Icon
           size={25}
           icon={LinkedIn}
           highlight="#2867b2"
           tooltip="Linkedin"
-          link="https://dstn.to/linkedin"
+          link="https://www.linkedin.com/in/mschroeder91/"
         />
       </IconWrapped>
       <IconWrapped last>
@@ -54,7 +54,7 @@ export function SocialLinks(props: any): ReactElement {
           icon={Mail}
           highlight="#6257fc"
           tooltip="Email"
-          link="mailto:comms@dstn.to"
+          link="mailto:mikeschroeder911@gmail.com"
         />
       </IconWrapped>
     </Icons>

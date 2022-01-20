@@ -13,7 +13,7 @@ export function Footer(): ReactElement {
     <Container>
       <LeftContainer>
         <NextLink href="/" passHref>
-          <Link>dstn.to</Link>
+          <Link>schrodobaggins.co</Link>
         </NextLink>
         <Text style={{ paddingLeft: "10px", paddingRight: "10px" }}>•</Text>
         <Text>{new Date().getFullYear()}</Text>
@@ -31,12 +31,12 @@ export function Footer(): ReactElement {
         />
         <Text style={{ paddingLeft: "10px", paddingRight: "10px" }}>•</Text>
         <NextLink
-          href="https://github.com/dustinrouillard/personal-site"
+          href="https://github.com/schrodobaggins/portfolio-site"
           passHref
         >
           <ExtLink
             target="_blank"
-            href={"https://github.com/dustinrouillard/personal-site"}
+            href={"https://github.com/schrodobaggins/portfolio-site"}
           >
             View Source
           </ExtLink>

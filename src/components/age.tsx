@@ -5,7 +5,7 @@ import styled from "styled-components";
 import NoSSR from "./nossr";
 import { useYearsAgo } from "../hooks/useTimeAgo";
 
-const date = new Date("07/15/1999");
+const date = new Date("08/07/1991");
 
 export function Age(): ReactElement {
   const age = useYearsAgo(date);
