@@ -15,7 +15,7 @@ export function PageHead(props: IHeadProps): ReactElement {
       <meta name="author" content="Michael Schroeder" />
       <meta name="copyright" content="Michael Schroeder" />
       <meta name="rating" content="General" />
-      <meta name="url" content="https://dustin.sh" />
+      <meta name="url" content="https://schrodo.co" />
       <meta
         name="description"
         content="Michael Schroeder - Software Engineerr"
